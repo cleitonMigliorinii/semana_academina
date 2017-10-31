@@ -1,0 +1,276 @@
+<html>
+<head>
+	<title>Responsividade</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+		*{
+	
+			color:white;
+			font-weight: bold;
+	
+		}
+
+		body{
+			background: linear-gradient(#a000ff, #ff003b);
+		}
+		article{
+			width: 100%;
+
+		}
+		/* For mobile phones: */
+		[class*="article-"] {
+		    width: 100%;
+		    border: 1px solid;
+		    font-size: 1em;
+		    margin: 5px 0px;
+		}
+
+		img{
+			width: 230px;
+			height: 230px;
+		}
+
+		.header_sup{
+			text-align: center;
+		}
+
+		.header_inf{
+			text-align: center;
+
+		}
+		
+		h1{
+			font-size: 1.5em;
+		}
+
+		h2{
+			font-size: 1.2em;
+		}
+
+		h3{
+			font-size: 1em;
+			text-decoration: underline;
+		}
+
+		.article-2{
+			background-color: rgba(73, 93, 31, 0.3);
+			box-shadow: 0 2px 2px 0 rgba(255, 251, 251, 0.14), 0 1px 5px 0 rgba(227, 227, 227, 0.35), 0 3px 1px -2px rgba(229, 223, 223, 0.2);
+			max-height: 30%;
+    		height: 100%;
+		}
+
+		.article-2 h2{
+			text-align: center;
+			font-size: 1.4em; 
+			text-decoration: underline;
+		}
+		.article-2 p{
+			margin-left: 20px;
+		}
+
+		.programacao{
+			margin-left:15px; 
+			font-size: 1.2em;
+		}
+
+		@media only screen and (min-width: 650px) and (max-width: 772px) {
+		    /* For desktop: */
+		    .article-2 {
+		    	width: calc(47% - 5px);
+    			border: 1px solid;
+    			float: left;
+    			padding: 5px;
+    			margin: 5px 5px;
+    			font-size: 1em; 
+		    }	
+
+		    .article-2 h2 {
+		     	font-size:1.2em;
+			    margin-left: 0px; 
+			}	
+		}
+
+
+		@media only screen and (min-width: 773px) and (max-width: 1023px) {
+		    /* For desktop: */
+		    .article-2 {
+		    	width: calc(47% - 5px);
+    			border: 1px solid;
+    			float: left;
+    			padding: 5px;
+    			margin: 5px 5px;
+				font-size: 1em; 
+		    }	
+
+		    .article-2 h2 {
+		     	font-size:1.2em;
+			    margin-left: 0px; 
+			}
+
+			ul li{
+				font-size: 1.1em;
+			}	
+
+		}
+
+
+		@media only screen and (min-width: 1024px){
+		    /* For desktop: */
+		    .article-2 {
+		    	width: calc(31% - 10px);
+		    	border: 1px solid;
+		    	float: left;
+    			padding: 5px;
+    			margin: 5px 10px;
+		    }
+
+		     .article-2 h2 {
+		     	font-size:1.2em;
+			    margin-left: 0px; 
+			}	
+
+			ul li{
+				font-size: 1em;
+			}
+		}
+	
+	</style>
+
+</head>
+<body>
+	<article>
+
+		<header>
+			<div class="header_sup">
+				<img src="img/logo_si.png"/>
+			</div>
+			
+			<div class="header_inf">
+				<h1>SISTEMAS DE INFORMAÇÃO - UNISEP</h1>
+				<h2>SEMANA ACADÊMICA</h2>
+
+				<h3>07 a 13 de novembro de 2017</h3>
+
+				<h4>Venha conhecer um pouco mais da área que está dominando o Mundo... Semana Acadêmica do curso de Sistemas de Informação.</h4>
+			</div>
+		
+		<header>
+		<hr>
+
+		<h1>PROGRAMAÇÃO</h1>
+
+		<div class="article-2">
+		  <h2>SEGUNDA-FEIRA - 07/11/2017</h2>
+		  <p>Programação unisep</p>
+		  <ul>
+		  	<li>
+		  		<label>19:15 - 19:55</label> : Credenciamento
+		  	</li>
+		  	<li>
+		  		<label>20:00 - 21:55</label> : Talk 1 
+		  	</li>
+		  	<li>
+		  		<label>22:00 - 22:45</label> : Talk 2
+		  	</li>
+
+		  </ul>
+		</div>
+
+		<div class="article-2">
+		  <h2>TERÇA-FEIRA - 08/11/2017</h2>
+		  <p>Programação unisep</p>
+		  <ul>
+		  	<li>
+		  		<label>19:15 - 19:55</label> : Talk 1
+		  	</li>
+		  	<li>
+		  		<label>20:00 - 21:55</label> : Talk 2 
+		  	</li>
+		  	<li>
+		  		<label>22:00 - 22:45</label> : Talk 3
+		  	</li>
+		  </ul>
+		</div>
+
+		<div class="article-2">
+		  <h2>QUARTA-FEIRA - 09/11/2017</h2>
+		  <p>Programação unisep</p>
+		  <ul>
+		  	<li>
+		  		<label>19:15 - 19:55</label> : Talk 1
+		  	</li>
+		  	<li>
+		  		<label>20:00 - 21:55</label> : Talk 2 
+		  	</li>
+		  	<li>
+		  		<label>22:00 - 22:45</label> : Talk 3
+		  	</li>
+		  </ul>
+		</div>
+
+		<div class="article-2">
+		  <h2>QUINTA-FEIRA - 10/11/2017</h2>
+		  <p>Programação unisep</p>
+		  <ul>
+		  	<li>
+		  		<label>19:15 - 19:55</label> : Talk 1
+		  	</li>
+		  	<li>
+		  		<label>20:00 - 21:55</label> : Talk 2 
+		  	</li>
+		  	<li>
+		  		<label>22:00 - 22:45</label> : Talk 3
+		  	</li>
+		  </ul>
+		</div>
+
+		<div class="article-2">
+		  <h2>SEXTA-FEIRA - 11/11/2017</h2>
+		  <p>Programação unisep</p>
+		  <ul>
+		  	<li>
+		  		<label>19:15 - 19:55</label> : Talk 1
+		  	</li>
+		  	<li>
+		  		<label>20:00 - 21:55</label> : Talk 2 
+		  	</li>
+		  	<li>
+		  		<label>22:00 - 22:45</label> : Talk 3
+		  	</li>
+		  </ul>
+		</div>
+	
+		<div class="article-2">
+		  <h2>SÁBADO - 12/11/2017</h2>
+		  <p>Programação unisep</p>
+		  <ul>
+		  	<li>
+		  		<label>19:15 - 19:55</label> : Talk 1
+		  	</li>
+		  	<li>
+		  		<label>20:00 - 21:55</label> : Talk 2 
+		  	</li>
+		  	<li>
+		  		<label>22:00 - 22:45</label> : Talk 3
+		  	</li>
+		  </ul>
+		</div>
+		<div class="article-2">
+		  <h2>DOMINGO - 13/11/2017</h2>
+		  <p>Programação unisep</p>
+		  <ul>
+		  	<li>
+		  		<label>19:15 - 19:55</label> : Talk 1
+		  	</li>
+		  	<li>
+		  		<label>20:00 - 21:55</label> : Talk 2 
+		  	</li>
+		  	<li>
+		  		<label>22:00 - 22:45</label> : Talk 3
+		  	</li>
+		  </ul>
+		</div>
+	</article>
+</body>
+</html>
